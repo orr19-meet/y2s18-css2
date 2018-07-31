@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 20px;
 }
 
 h1 {
@@ -11,8 +11,28 @@ h1 {
 p {
     color: green;
     font-size: 24pt;
+
 }
 
 a {
     color:red;
+}
+a:hover {
+	background-color: blue;
+
+}
+
+#important_paragragh:hover{
+	background-color: yellow;
+	font-size: 40px;
+
+}
+.less_important_paragragh:hover{
+	color: blue;
+}
+#span_cover:hover + #hidden_div {
+    display: block;}
+
+#hidden_div{
+	display:none; 
 }
